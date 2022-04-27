@@ -1,0 +1,7 @@
+{
+  "name": "Demo Stan's Website",
+  "short_name": "WebPush by Stan",
+  "gcm_sender_id": "196794809530",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}
