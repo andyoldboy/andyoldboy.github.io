@@ -36,20 +36,17 @@
           applicationCode: '5B671-EE019',
           defaultNotificationTitle: 'Pushwoosh',
           defaultNotificationImage: 'https://cp.pushwoosh.com/img/logo-medium.png',
-          autoSubscribe: true,
-          subscribeWidget: {
-            enable: false
-          },
+          autoSubscribe: false,
           subscribePopup: {
             enable: true,          // (boolean) popup activation
             text: 'Text on popup', // (string) a text to display on the popup 
             askLaterButtonText: 'Not now', // (string) custom text for the “Ask later” button         
             confirmSubscriptionButtonText: 'Subscribe', // (string) custom text for the “Subscribe” button 
-            iconUrl: 'https://...',  // (string) custom icon URL
+            iconUrl: 'https://go.pushwoosh.com/img/tmp.icon.png',  // (string) custom icon URL
             delay: 10,             // (integer) a delay between the page loading and popup appearance 
-            retryOffset: 604800,   // (integer) an offset in seconds to display the popup again 
+            retryOffset: 30,   // (integer) an offset in seconds to display the popup again 
             overlay: true,        // (boolean) enables page overlaying when popup is displayed
-            position: 'top',       // (string) position on the page. Possible values: ’top' | 'center' | 'bottom’
+            position: 'center',       // (string) position on the page. Possible values: ’top' | 'center' | 'bottom’
              
             bgColor: '#fff',                         // (string) popup’s background color
             borderColor: 'transparent',              // (string) popup’s border color
