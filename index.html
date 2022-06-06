@@ -71,6 +71,11 @@
         console.log('hwid:', hwid);
     });
 </script>
+<script type="text/javascript">
+  Pushwoosh.isSubscribed().then(function(isSubscribed) {
+  console.log('isSubscribed', isSubscribed);
+});
+</script>
 	</head>
 	<body>
   
