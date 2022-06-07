@@ -81,11 +81,13 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
   <script type="text/javascript">
+      var Pushwoosh = Pushwoosh || [];
       Pushwoosh.getHWID().then(function(hwid) {
         console.log('hwid:', hwid);
     });
 </script>
 <script type="text/javascript">
+  var Pushwoosh = Pushwoosh || [];
   Pushwoosh.isSubscribed().then(function(isSubscribed) {
   console.log('isSubscribed', isSubscribed);
 });
